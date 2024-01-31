@@ -1,7 +1,33 @@
-.recipe-details{
+.recipe-details {
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+  padding: 0 120px;
+
+  .recipe-details-container {
     width: 100%;
-    max-width: 1440px;
-    margin: auto;
-    padding: 0 120px;
-    
+    .recipe-details-heading {
+      margin-top: 50px;
+      h1 {
+        font-weight: 600;
+      }
+    }
+    .recipe-details-user {
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      .recipe-details-user-card {
+        display: flex;
+        align-items: center;
+      }
+    }
+    hr {
+      margin-top: 22px;
+    }
+    .recipe-details-image {
+      margin-top: 22px;
+      width: 100%;
+    }
+  }
 }
